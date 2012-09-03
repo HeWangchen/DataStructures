@@ -57,7 +57,7 @@ int main()
     scanf("%d",&n);
     printf("Please input the number of the list v: \n");
     scanf("%d",&m);
-    printf("which do you want to calculate? 1->Discrete 2->aa \n");
+    printf("which do you want to calculate? 1->Discrete   2->Continuous \n");
     scanf("%d",&choice);
     if(choice == 1)
     {
@@ -65,7 +65,7 @@ int main()
     }
    /* else if(choice == 2)
     {
-        please input
+        
     }*/
     return 0;
 }
